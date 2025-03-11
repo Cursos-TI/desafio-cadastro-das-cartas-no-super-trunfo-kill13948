@@ -88,9 +88,18 @@ printf("area:%f\n", AREA);
 printf("pib:%f\n", PIB);
 printf("pontos:%d\n", PONTOS);
 
-return 0;
+if (populacao > POPULACAO)
+{printf("catra1 é a vencedora com base na população\n");
+}if (populacao < POPULACAO)
+{ printf ("carta2 é a vencedora\n");
+}else
+{printf(" as duas cartas tem a mesma populaçao\n");}
 
+ return 0;
 }
+
+
+
 
     
     
